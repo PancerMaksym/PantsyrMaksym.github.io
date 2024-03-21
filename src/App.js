@@ -1,12 +1,16 @@
-import './App.css';
+import {Route, Routes } from "react-router-dom";
+import Layout from "./pages/Layout"; // Перевірте шлях до Layout
+import Homepage from "./pages/Homepage"; // Перевірте шлях до Homepage
+import Mail from "./pages/Mail"; // Перевірте шлях до Mail
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Hello world</h1>
-      </header>
-    </div>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Homepage />} />
+          <Route path="mail" element={<Mail />} />
+        </Route>
+      </Routes>
   );
 }
 
