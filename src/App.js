@@ -1,8 +1,8 @@
 import {Route, Routes } from "react-router-dom";
-import Layout from "./pages/Layout"; // Перевірте шлях до Layout
-import Homepage from "./pages/Homepage"; // Перевірте шлях до Homepage
-import Mail from "./pages/Mail"; // Перевірте шлях до Mail
-
+import Layout from "./pages/Layout"; 
+import Homepage from "./pages/Homepage"; 
+import Mail from "./pages/Mail"; 
+import "./App.css";
 function App() {
   return (
       <Routes>
