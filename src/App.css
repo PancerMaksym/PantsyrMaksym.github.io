@@ -1,7 +1,0 @@
-.HomePage .facePhoto{
-    border-radius: 50%;
-    width: 12.5rem;
-    height: 12.5rem;
-    object-fit: cover; 
-    object-position: top;
-}

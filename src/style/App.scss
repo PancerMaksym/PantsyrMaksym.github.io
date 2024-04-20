@@ -1,0 +1,31 @@
+body {
+    background-color: #F5F5F5;
+    margin: 0px;
+    color: #303481;
+}
+
+body a{
+    padding: 16px 32px ;
+    color: #303481;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.25rem;
+
+    &:hover {
+      text-decoration: none;
+    }
+
+    &:active{
+      color: #26296b;
+    }
+}
+
+.Body {
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.Body .mail div {
+    align-items: center;
+}

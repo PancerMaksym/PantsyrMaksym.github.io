@@ -1,0 +1,23 @@
+
+.Body .HomePage .startPhotoInfo {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin: 2rem;
+}
+
+.Body .HomePage h2:not(.startPhotoInfo) {
+    text-align: center;
+}
+
+.Body .HomePage li {
+    list-style-type: lower-alpha;
+}
+
+.HomePage .facePhoto {
+    border-radius: 50%;
+    width: 12.5rem;
+    height: 12.5rem;
+    object-fit: cover;
+    object-position: top;
+}
